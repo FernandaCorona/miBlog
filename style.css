@@ -54,29 +54,12 @@ h2 {
     vertical-align: middle;
 }
 
-/* CLASE 58 */
-/*.menu {
-    list-style: none;
-    position: absolute;
-    top: 10px;
-    left: 30px;
-    z-index: 1;
-    cursor: pointer;
-}
-
-.link {
-    float: left;
-    padding: 5px 9px;
-    font-family: fantasy;
-    font-size: 20px;
-}*/
-
 /* CLASE 59 */
 a {
     text-decoration: none;
 }
 
-/* CLASE 59 */
+/* CLASE 60 */
 .menu {
     list-style: none;
     position: fixed;
@@ -115,4 +98,10 @@ a {
 
 #contacto a {
     margin: 10px 0px;
+}
+
+.my_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 99999;
 }
